@@ -14,6 +14,8 @@ namespace Terminkalender
     public partial class FrmMain : Form
     {
         int month, year;
+        //create static variable that can padd to antoher form for month and year
+        public static int static_month, static_year;
 
         public FrmMain()
         {
@@ -33,6 +35,10 @@ namespace Terminkalender
 
             String monthname = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
             LBDATE.Text = monthname + " " + year;
+
+
+            static_month = month;
+            static_year = year;
 
             //First  day of the month
             DateTime startofthemonth = new DateTime(year, month, 1);
@@ -68,6 +74,8 @@ namespace Terminkalender
 
             //decrement month to go to the previous month
             month--;
+            static_month = month;
+            static_year = year;
 
             String monthname = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
             LBDATE.Text = monthname + " " + year;
@@ -106,6 +114,8 @@ namespace Terminkalender
             //increment month to go to the next month
 
             month++;
+            static_month = month;
+            static_year = year;
 
             String monthname = DateTimeFormatInfo.CurrentInfo.GetMonthName(month);
             LBDATE.Text = monthname + " " + year;

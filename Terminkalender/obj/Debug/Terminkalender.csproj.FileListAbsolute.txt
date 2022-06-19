@@ -141,3 +141,4 @@ C:\Users\onurc\source\repos\Terminkalender\Terminkalender\obj\Debug\Terminkalend
 C:\Users\onurc\source\repos\Terminkalender\Terminkalender\obj\Debug\Terminkalender.exe
 C:\Users\onurc\source\repos\Terminkalender\Terminkalender\obj\Debug\Terminkalender.pdb
 C:\Users\onurc\source\repos\Terminkalender\Terminkalender\obj\Debug\Terminkalender.UserControlDays.resources
+C:\Users\onurc\source\repos\TerminKalender\Terminkalender\obj\Debug\Terminkalender.EventForm.resources
